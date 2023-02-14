@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - UploadStaticCodeScan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f30c02b6-b629-4495-b525-70eb9fb99593</testCaseGuid>
+</TestCaseEntity>
