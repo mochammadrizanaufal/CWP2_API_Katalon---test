@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - GetRedirectionDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3599b94-0c0e-460d-9e23-e2b7c25562de</testCaseGuid>
+</TestCaseEntity>

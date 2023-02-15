@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - GetHTTPSchedulerDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8866d88-8ef3-450b-8428-daded6fcfd54</testCaseGuid>
+</TestCaseEntity>
