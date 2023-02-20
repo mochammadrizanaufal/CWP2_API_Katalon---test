@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - GetPackageDeploymentDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6748740-ecfd-4d77-85dd-281dc1782c3f</testCaseGuid>
+</TestCaseEntity>
