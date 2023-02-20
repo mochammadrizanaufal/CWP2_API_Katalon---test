@@ -3,7 +3,6 @@
    <description></description>
    <name>Get Token</name>
    <tag></tag>
-   <elementGuidId>e8a0846e-ee8f-4970-ad41-7286a07bf25e</elementGuidId>
    <elementGuidId>50fe7395-2c0b-492b-b862-100717a5a6b0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -51,3 +50,17 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
