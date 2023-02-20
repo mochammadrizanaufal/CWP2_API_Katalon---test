@@ -17,16 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<<< HEAD:Scripts/User Management/Verify Success Code - Admin Update/Script1676442727944.groovy
 def token = CustomKeywords.'common.Common.getToken'()
-========
-request = WS.sendRequest(findTestObject('Project Management/ListProject'))
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Scripts/Project Management/Verify Success Code - ListProject/Script1676435474461.groovy
 
-result = WS.sendRequest(findTestObject('User Management/Admin Update', [('token'):token]))
+result = WS.sendRequest(findTestObject('User Management/Users detail', [('token'):token]))
 
-<<<<<<<< HEAD:Scripts/User Management/Verify Success Code - Admin Update/Script1676442727944.groovy
 WS.verifyResponseStatusCode(result, GlobalVariable.SUCCESS_CODE)
 
-========
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Scripts/Project Management/Verify Success Code - ListProject/Script1676435474461.groovy

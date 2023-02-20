@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-<<<<<<<< HEAD:Object Repository/User Management/Roles List.rs
-   <name>Roles List</name>
+   <name>Admin Update</name>
    <tag></tag>
-   <elementGuidId>6b3fc3c3-be98-4c67-a4c7-b96a15a47569</elementGuidId>
-========
-   <name>ListProjectBaseVersion</name>
-   <tag></tag>
-   <elementGuidId>65bb7dad-3579-47fa-af72-3223168405f7</elementGuidId>
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Object Repository/Project Management/ListProjectBaseVersion.rs
+   <elementGuidId>b83e7673-c6a8-47c8-8c74-623dde742a34</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <authorizationRequest>
@@ -25,11 +19,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-<<<<<<<< HEAD:Object Repository/User Management/Roles List.rs
-  &quot;text&quot;: &quot;{\n  \&quot;roleLevel\&quot;: \&quot;project\&quot;\n}&quot;,
-========
-  &quot;text&quot;: &quot;{\n\t\&quot;projectBase\&quot;:\&quot;Sitecore\&quot;\n}&quot;,
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Object Repository/Project Management/ListProjectBaseVersion.rs
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;umar@xtremax.com\&quot;,\n    \&quot;roles\&quot;: [\n        {\n            \&quot;roleName\&quot;: \&quot;XSupport\&quot;,\n            \&quot;resourceUri\&quot;: \&quot;\&quot;\n        }\n    ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -40,8 +30,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-<<<<<<<< HEAD:Object Repository/User Management/Roles List.rs
-      <webElementGuid>ac11af7d-8eee-4a5a-ae6b-bc2e38a3250a</webElementGuid>
+      <webElementGuid>0eb930fb-3223-43aa-a451-eb18912d6570</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -49,22 +38,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${token}</value>
-      <webElementGuid>152eb7b9-7285-4a8e-ac68-64dde7ce3ae0</webElementGuid>
+      <webElementGuid>ae0c4e5c-5d17-4d19-8335-a65d42bb050a</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.5.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.BASE_URL}api/usermanagement/v1/roles/list</restUrl>
-========
-      <webElementGuid>074453b3-49f4-468f-a49a-a21b0f10740a</webElementGuid>
-   </httpHeaderProperties>
-   <katalonVersion>8.5.5</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
-   <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.BASE_URL}api/ProjectManagement/v1/project/listProjectBaseVersion</restUrl>
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Object Repository/Project Management/ListProjectBaseVersion.rs
+   <restUrl>${GlobalVariable.BASE_URL}api/usermanagement/v1/internal-users/admin-update</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -17,7 +17,7 @@ public class Common {
 
 	@Keyword
 	def getToken() {
-		def response = WS.sendRequestAndVerify(findTestObject(""))
+		def response = WS.sendRequestAndVerify(findTestObject("User Management/Get Token"))
 
 		def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 		return jsonResponse.access_token
