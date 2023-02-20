@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-<<<<<<<< HEAD:Test Cases/User Management/Verify Success Code - Admin Update.tc
-   <name>Verify Success Code - Admin Update</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bf6e97df-e2ef-4ac8-aa67-b8c97e6fc3b4</testCaseGuid>
-========
    <name>Verify Success Code - ListProject</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5f402cb1-0345-4631-b220-8853700286bf</testCaseGuid>
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Test Cases/Project Management/Verify Success Code - ListProject.tc
+   <testCaseGuid>d8dd6c12-361f-4915-a947-0a8680b9fc29</testCaseGuid>
 </TestCaseEntity>

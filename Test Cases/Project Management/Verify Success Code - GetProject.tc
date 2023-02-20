@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-<<<<<<<< HEAD:Test Cases/User Management/Verify Success Code - Roles List.tc
-   <name>Verify Success Code - Roles List</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>12661085-331b-49fc-9352-3d268f0c2b74</testCaseGuid>
-========
    <name>Verify Success Code - GetProject</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>0286c478-bb7b-45f7-a0a5-45d7584747bb</testCaseGuid>
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Test Cases/Project Management/Verify Success Code - GetProject.tc
+   <testCaseGuid>2e49a046-3398-4738-ab34-f33411249c82</testCaseGuid>
 </TestCaseEntity>

@@ -16,15 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-<<<<<<<< HEAD:Scripts/User Management/Verify Success Code - Roles List/Script1676442815931.groovy
 def token = CustomKeywords.'common.Common.getToken'()
 
 result = WS.sendRequest(findTestObject('User Management/Roles List', [('token'):token]))
-========
-result = WS.sendRequest(findTestObject('Project Management/ListProjectBaseVersion'))
-
-WS.verifyResponseStatusCode(result, GlobalVariable.SUCCESS_CODE)
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Scripts/Project Management/Verify Success Code - ListProjectBaseVersion/Script1676435507183.groovy
 
 WS.verifyResponseStatusCode(result, GlobalVariable.SUCCESS_CODE)

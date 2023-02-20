@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-<<<<<<<< HEAD:Test Cases/User Management/Verify Success Code - Users Filter.tc
    <name>Verify Success Code - Users Filter</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>91f473fb-1101-4864-87b0-70eab7b8892b</testCaseGuid>
-========
-   <name>Verify Success Code - ListProjectBase</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>de1c7ad4-cb05-447b-a80a-d2c1ac4c3d21</testCaseGuid>
->>>>>>>> 9a4402edd71613e544bf76afeee04521f3490a35:Test Cases/Project Management/Verify Success Code - ListProjectBase.tc
+   <testCaseGuid>bbfdb434-ee2b-4dbf-aba8-684eb6f320c2</testCaseGuid>
 </TestCaseEntity>
