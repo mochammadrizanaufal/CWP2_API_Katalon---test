@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify Success Code - ListLoadTestOption</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b88e7d65-f21c-4e1a-84a8-6f2d64221041</testCaseGuid>
-</TestCaseEntity>

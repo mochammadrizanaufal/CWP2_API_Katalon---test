@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify Success Code - GetStaticCodeScan</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1f754582-124c-4105-8a36-ef79f0805be4</testCaseGuid>
-</TestCaseEntity>
