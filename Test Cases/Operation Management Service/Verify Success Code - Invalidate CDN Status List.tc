@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - Invalidate CDN Status List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4eb253bc-0a95-4dd2-947b-f08803d4ee4e</testCaseGuid>
+</TestCaseEntity>
