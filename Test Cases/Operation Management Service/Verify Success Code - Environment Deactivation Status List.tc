@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - Environment Deactivation Status List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd477b91-dfc0-4a6e-a105-8bb8446adcde</testCaseGuid>
+</TestCaseEntity>

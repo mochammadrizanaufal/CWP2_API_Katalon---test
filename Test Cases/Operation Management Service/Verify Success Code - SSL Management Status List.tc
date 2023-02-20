@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Success Code - SSL Management Status List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ef1c5c3-120d-4ac6-b2e8-dad9704fd7d6</testCaseGuid>
+</TestCaseEntity>

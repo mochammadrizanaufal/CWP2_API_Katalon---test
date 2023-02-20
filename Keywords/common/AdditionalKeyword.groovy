@@ -1,4 +1,3 @@
-
 package common
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -22,4 +21,12 @@ public class Common {
 		def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 		return jsonResponse.access_token
 	}
+
+	@Keyword
+	def getId(String obj) {
+		def response = WS.sendRequestAndVerify(findTestObject(obj))
+		def jsonResponse = jsonSlurper.parseText(response.getResponseText())
+		return jsonResponse.data[0].id
+	}
 }
+
